@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 4.5rem;
+    text-shadow: 1px 1px;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 2px 0.5px;
+    
+}
+.hero{
+
+    min-height: 90vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+main{
+    margin-top: 20rem;
+}
+.try{
+    margin-top: 2rem;
+    border: none;
+    font-size: 2.6rem;
+    cursor: pointer;
+  
+}
+
+.form-section{
+   
+ 
+ 
+min-height: 60vh;    
+    margin: 15rem 15rem;
+   display: flex;
+   justify-content: center;
+  
+
+}
+.block{
+    box-shadow: 7px 7px 8px 7px #dfdede;
+    
+}
+.form-section form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 2rem 5rem;
+    border-radius: 6rem;
+
+   
+    
+}
+.form-section label,input,button{
+    
+            font-size: 3rem;
+            text-align: center;
+}
+.form-section button{
+    margin-top: 3rem;
+    
+}

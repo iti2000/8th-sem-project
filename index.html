@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Tweetys</title>
+  </head>
+  <body>
+    <section class="hero">
+      <main>
+        <h1 data-aos="fade-down" data-aos-duration="2000">
+          Finding the <br />
+          Sentiment Score
+        </h1>
+        
+         <a href="#second"> <img data-aos="fade-down-left" class="try" data-aos-duration="3000" src="/img/Group 3.svg" alt="" /></a>
+        
+      </main>
+      <main-img data-aos="fade-left"  data-aos-duration="2000">
+        <img src="/img/Hero-1.svg" alt="" />
+      </main-img>
+    </section>
+
+    <section class="form-section" id="second">
+     <div class="block">
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+     </div>
+      
+  </section>
+
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
